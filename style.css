@@ -294,6 +294,14 @@ footer {
   color: rgb(18, 189, 18);
 }
 
+@media (max-width: 471px) {
+  .boxOne {
+    padding: 0 20px;
+  }
+  .boxTwo {
+    padding: 0 20px;
+  }
+}
 @media (max-width: 1070px) {
   .box {
     flex-direction: column;
