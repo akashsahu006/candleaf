@@ -305,6 +305,10 @@ footer {
   .boxTwo {
     padding: 0 20px;
   }
+  .navbar {
+    padding: 0px 20px;
+    justify-content: space-between;
+  }
 }
 @media (max-width: 1070px) {
   .box {
