@@ -9,6 +9,7 @@
   display: flex;
   flex-direction: row;
   height: 100%;
+  padding-top: 80px;
 }
 .boxOne {
   height: 700px;
@@ -22,6 +23,8 @@
   width: 50%;
   border: 5px solid red;
   padding: 50px 100px;
+  display: flex;
+  flex-direction: column;
 }
 
 .formContent {
@@ -183,6 +186,7 @@
   font-size: 23px;
   padding: 8px 15px;
   border-radius: 5px;
+  cursor: pointer;
 }
 .subtotal {
   display: flex;
@@ -294,7 +298,7 @@ footer {
   color: rgb(18, 189, 18);
 }
 
-@media (max-width: 471px) {
+@media (max-width: 481px) {
   .boxOne {
     padding: 0 20px;
   }
@@ -311,6 +315,8 @@ footer {
   }
   .boxTwo {
     width: 100%;
+    justify-content: center;
+    height: 550px;
   }
 }
 @media (max-width: 1175px) {
@@ -409,4 +415,33 @@ footer {
     align-items: center;
     justify-content: center;
   }
+}
+@media (max-width: 1330px) {
+  .couponInput {
+    width: 58%;
+  }
+}
+nav {
+  height: 80px;
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 100px;
+}
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+}
+nav ul li {
+  list-style: none;
+  padding: 30px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: black;
 }
